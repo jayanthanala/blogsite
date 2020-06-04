@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const _ = require('lodash');
 const mongoose = require('mongoose');
+const dotenv = require('dotenv');
 
 mongoose.connect("mongodb+srv://admin-jayanth:<willaddconfigfile>@blogwebsite-c9tg9.mongodb.net/blogDB", {
   useNewUrlParser: true,
