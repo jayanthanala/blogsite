@@ -7,7 +7,7 @@ const _ = require('lodash');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 
-mongoose.connect("mongodb+srv://admin-jayanth:<willaddconfigfile>@blogwebsite-c9tg9.mongodb.net/blogDB", {
+mongoose.connect("mongodb+srv://admin-<myname>:<willaddconfigfile>@blogwebsite-c9tg9.mongodb.net/blogDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false
